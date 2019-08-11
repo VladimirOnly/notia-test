@@ -1,0 +1,17 @@
+export module DbConfig {
+  export const DB = {
+
+    TYPE: 'pg',
+
+    HOST: 'gates.notia.cz',
+
+    DATABASE: 'test',
+
+    PORT: 6958,
+
+    USER: 'test',
+
+    PASSWORD: 'anmUtR54oPnh'
+
+  };
+}

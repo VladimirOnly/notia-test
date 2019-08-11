@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+</head>
+<body>
+
+<form method="post" action="/login/">
+  <table>
+    <tr>
+      <td><label for="loginField">Login</label></td>
+      <td><input id="loginField" type="text" name="login"></td>
+    </tr>
+    <tr>
+      <td><label for="passwordField">Password</label></td>
+      <td><input id="passwordField" type="password" name="password"></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center"><input type="submit" value="Enter"></td>
+    </tr>
+  </table>
+</form>
+
+<table border="1"  id="mainTable">
+<tbody>
+    <tr>
+      <th>EAN</th>
+      <th>Packed</th>
+      <th>Quantity</th>
+      <th>Code</th>
+      <th>Product</th>
+      <th>Image</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>yes</td>
+      <td>3</td>
+      <td>5468</td>
+      <td>Mercedes-Benz</td>
+      <td><img src="https://images.app.goo.gl/CFhWGFe8i5bA1TEg9" > </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>no</td>
+      <td>5</td>
+      <td>2356</td>
+      <td>Mercedes-AMG</td>
+      <td><img src="https://images.app.goo.gl/adPsEPHykfT8i41M7"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>yes</td>
+      <td>1</td>
+      <td>7658</td>
+      <td>Tesla</td>
+      <td><img src="https://images.app.goo.gl/ZnFY3woR3MwdMzMD9"></td>
+    </tr>
+    </tbody>
+</table>
+<script src="mainJS.js"></script>
+
+</body>
+</html>
